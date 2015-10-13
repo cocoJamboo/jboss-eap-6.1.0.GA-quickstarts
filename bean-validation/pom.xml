@@ -27,7 +27,13 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
         </license>
     </licenses>
-    <parent><relativePath>../pom.xml</relativePath></parent>
+
+	<parent>
+		<groupId>org.jboss.as.quickstarts</groupId>
+		<artifactId>jboss-as-quickstarts-parent</artifactId>
+		<version>7.1.2-SNAPSHOT</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
 
     <properties>
         <!-- Explicitly declaring the source encoding eliminates the following
