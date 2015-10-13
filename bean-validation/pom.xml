@@ -27,6 +27,7 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.html</url>
         </license>
     </licenses>
+    <parent><relativePath>../pom.xml</relativePath></parent>
 
     <properties>
         <!-- Explicitly declaring the source encoding eliminates the following
